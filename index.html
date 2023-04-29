@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+
+    <header>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAA81BMVEX///8EEkwmZO37ehgAAD8AAEUAAEIAEEsAAEcAADwAC0kAAEAnL18AAD3Q2/oAADr7cQD19fgAWOy/wcySladSV3lzd5D7dwAaYO8AB0jx8vba2+MAADf4+//7fhkAVezR09xaX3/9zK9rb4u4uscAADH+7eFHTXLo6e6ZnK+zxfjh6PwNW+ynu/dFd+/D0fn+6tz+4tH8pG0eJ1lBR22kp7dkaITq7/1+gZn9xqf8r3//9/FzlfK+zfkva+7Z4vuSrPV5mvP+2cT7mFc2PWddhvH7iDb8towRHVSGo/T7jD5ojvIwN2MAACpOffH+28feu7lENb29AAAIhklEQVR4nO2aeX/aOBPHDfEh23ENhAIG05jYBEhJ0wRMSLObZBPa9Omxfd7/q1mNfCBfpEe80M/Ot38UbMmWfpkZjUYIAoIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIg5fP67OTk5Oz1tofxG3D2R7XRmE6njUbn85/bHsxuc3LT6FQjOo3q6bYHtLu8ftOoJmnc3G57UDvKn5xVxdZ1iMaVx+lhRirg8G7bA9tBTvK1QrVyuC3Siqp1tu3B7Ro32Xi1Dlz9bY9ut7ibFmtV7fyx7eHtFJfpnCHliJjOc9xtcEIwrb+2PcBdIiXOdNpJcli/vr4+Pn779vz8/Nu3+6P7o6uj+7fbHvV2eJH0wsZpP4XwUMuh/XB1vfG5fWeydN2l7/AXe2vGZU6qLJLhvfEi2+KotpdDu1a7OC58qrOQVVmiyCZprXWp2GaMtGo6JcynVN7zIauRV2w4zhWL6fWY/8zuwJSUSogimcvoxr5WiVEs2dz3SppVSdw8nSd8KBBrb6/2Ic+4DiSJqaFZlgaaKfp+N7jDxFKAQDDLHHXLm9rzwxvWND8DfWwXqrVXO880PzBBEksUZ/P5R1UGXUgl0ATEUkSDoqoyYXekXqnTe1b6XMjq3OW3OS/yw1y1eqYCiux7TJ9xkxCqibRi96hYijzuUsaOP1Lhjqb/PqGeF6tR5BKbxNprp1ZFBazHnMTfu3OZaqL68BnEEuvRnd5IBBP8+PyzKgvODTv/K2hzscEP99qfEm2XTJoD/tKcUHuS4FNSLNpYpY31pfC7wAf4w5zEAShcDwNHvOKa1iFGiZNE964sG0H+kBZLaFFpFZtzxJ6/XCyWfjKQOZPWwF16seE7FNpn7PmTZhRmu15Ox+fmMx/hO5f5ja42q8U5oq9Tx/qS6t5crlfDpFjCR+q0cjP6djA3dYkQSTdHTtzEm5kyvSiLRivo2h+a6tAXXFOU5a/BpbGrikHHuSOUxymflHaqBWod1TbIxadbc4saVmH2lBXLo2FL2w+/uLYUJWFkGDnnSzNKzhSZBIZDkzjZn7N11mZP80yuY1Mojdvkdqdzkt/s+vHTq5h2Srl23Kyuw5wKX5YVC9xWUQM/HOks95IkC/5XXXaRLQ+KJMtw0SLMRKlYyowGQouQITzNt6lulq6qIqyvZuuXBNnITUKs6jRRhLh5f5cXx46SEb92H91waMQmo8J3ZcUSXtL5GWw9cEEryVy1WiuTTRoW0CYsmDJpTZpzlSoiMyFge6BA08FgRGNWD7QSV77T80YG/WiXty843VT7q3Y6jZscYztOqNV+F10Hr5KKV7ccsZbUgXSQ5cAGWebM0XpzFvhpS1HUKmLwQI8KoejQm+2l9EUU8Pep0Rmh801UMO3kK56R/uZ6FuRfb7IFwGSi+iG6DPFdnmRaR+SINZHDCL+yeKMcEWKPqHf2J8R2w2ugq+kIgVhkEDU9MOkfaCFwjfTiEfwqp5tLpWBejey5xSOvVhy0flwsPxSrZ0JoirOD7jBaD/vN6CKYrQgeK63jHGVAo5cYf+uKSnY5fkb+ftK28k55+O11nDzAfOQfcsMmiOUHFsY7cCZh6vkQ3iKxOD3oHlP70u+G1GH/KZbmh8Ll02JVp5mc4htnWrWo+OAY1EEW6aYxOWK5JMg1XCkK9FnG3nIuqTpE/Ugs8jK+CYFf08UQHRINs8Tc9MWTjljt/J3udJ0nFoxcqxS+KEcsyEphbmA2Zt6eutucmaJkUc9TcsXqqZWo7hMXf1TnZ2T4Ts6eVitTF+Q3jLFYwkzb9HfNigW5hkKEUKycnfzEkFnFR6LropInFjyhoskJhqXuel5Xn3LFzptkD94LuQ0PLEaSm3q6E409K9aChO0HJFflFhR8JFNf0a2hpxdZljafNBOUfDT81+ETciUPEK8TWemr+DpUsxQ1NenVcBFcyYgFy37FdoR1oE/Cki/RddgXfjVciwV7AGv+a5P/YW4/N6ab9JomfoD0ic9K2w/rGyNqIdYsYT0TQyEmy6DSYvVgf0fYTA9UbpNIWbE0HOwtTkVAz6xYwXb0X68gXp6+nzYKOeQK9N9eJTJ4vkjD9h7kCxd9fOZJbIlMieWxcGQHVkcStZ2JqsJpBitKRD4F8TBHLF9MeP6gWV7ekOLy9kUR/6+1Q9IlCL5GIzTBswiJPGrcCsrM63pWeKN+MII7wRaQMhG5CqtPV1XrqwP6KGIo/FLPXQ2FvgSLSlRrWBqysdz+KUhhKZ73QooLe19FJO7E8yYDA4onSri3hYTRGgAvVyIrEVTsOBGdQUuD7ocdn22aJbqhWUiRUXZbLEXIEUvw4M8jzr1xd+ytQPKv2z8EKayXps8sXGYxiiSLoswE0Yah9bCjMMJgZZgKMdcxfcxKM5ZsGDrIRjTqTg4EeIm4rZEsVawCsQTXgFaiSf9BG7PEitZ3U1CJTxkWxTeiWlxYs4syc/6QlR2/jngb6Fny+mhW/sgclwmvEYlGNHlkFYgltGz2YNZbs3eipv9QYFjZg9ZxSxWJBvm0RkR9GUfcGTvSZ8f6smiSMCWIqbu2bEEvS7bDErKwtOkqQJ8j2W59KEk2FatvSJKeEEvwLIO9TyOqthun3PmV+MR5RUzXX8x005RnC48/zWlFNJteXmAZN1eSaZJVc50K9Jb79EEVKmzdbbWYvi48INXTG1RU06gMdkOqgqBVe1fYvl//qUQ6p9f3Pegn31cSD9moVbvY9qB2lWzyUPQ7GkQQ3iXVarfvn+7z3+WBL2LV3m3+8d9/nsdaLdzxfHhEqZ7i+uri4eHi8aj4J5IIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgvwg/wAUkr74TQQuzAAAAABJRU5ErkJggg==" alt="">
+        <div id="menu-bar" class="fa fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <div class="close-bar" class="fa fa-xmark"></div>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">Cars</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Testimonials</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <section class="header" id="header">
+
+        <div class="container">
+            
+            <div class="content">
+                <h1>Own Everything Easily.</h1>
+                <p><span style="color: #2764ED;">Pay small small </span>at the normal market price.0% Interest.</p>
+                <button class="dot">Start Now Now &nbsp;<i class="fa-solid fa-cart-shopping"></i></button><br>
+                <button class="dot2">Download CDcare on Android and Ios &nbsp;<i class="fa-thin fa-file-arrow-down"></i></button>
+            </div>
+
+            <div class="image">
+                <img src="https://pbs.twimg.com/media/ETYIf2PWoAEPRDV.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+<section class="slider">
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="data:image/png;base64,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" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="data:image/png;base64,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" height="100" width="250" alt="" />
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="special" id="special">
+
+    <h1 class="heading"><span style="color: #2764ED;">CDcare </span> is Faster, Easier, Less Evasive and Risk-Free</h1>
+
+    <div class="box">
+
+        <div class="items">
+
+                <img src="https://static.wixstatic.com/media/a499f3_b80d9c25749d4cf5aa5f0879a45e0a00~mv2.png/v1/fill/w_96,h_96,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/a499f3_b80d9c25749d4cf5aa5f0879a45e0a00~mv2.png" alt="">
+                <h3>No BVN</h3>
+                <h3>No Bank Login</h3>
+                <p>Your BVN is not required & you don't have to input your bank login or tell your friend.</p>
+                <button>start now</button>
+        </div>
+
+        <div class="items">
+                <img src="https://static.wixstatic.com/media/a499f3_7977eb8f74184c338107a78d7b4381fd~mv2.png/v1/fill/w_96,h_96,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/interest.png " alt="">
+                <h3>Zero Interest</h3>
+                <h3>no kobo added</h3>
+                <p>We sell at the normal market price and charge no interest.</p>
+                <button>start now</button>
+        </div>
+
+        <div class="items">
+                <img src="https://static.wixstatic.com/media/a499f3_70fc8439f59d4d8da681a3b9fd00fc5c~mv2.png/v1/fill/w_96,h_96,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/Delivery.png" alt="">
+                <h3>We deliver faster </h3>
+                <h3>we deliver original</h3>
+                <p>We ship only original / genuine items fast to you before full payment.</p>
+                <button>start now</button>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="controls">
+
+    <div class="row">
+
+        <div class="content">
+            <h1 class="head"> Take control of your finances, you can start immediately.</h1>
+            <h3>Search & Find</h3>
+            <p>Visit the CDcare app(web or mobile) to find your desired item from our wide range of product offerings, select it and check the properties.</p>
+            <h3>Plan & start your installment</h3>
+            <p>Take control of your finances, you can start immediately.  Search & Find Visit the CDcare app(web or mobile) to find your desired item from our wide range of product offerings, select it and check the properties.Plan & start your installment Choose your desired installment. You can choose between 4 - 40 weeks or 2 - 12 months. For cars, we allow up to 106 weeks or 36 months. Then proceed to pay your first payment.</p>
+            <h3>We will deliver at 50%</h3>
+            <p>Your desired item will be shipped to you before full payment at the mid-point of your installment. On a 2 months plan, the delivery process starts immediately, while on a six months plan, the delivery process starts on the 3rd month.</p>
+            <button>Start Now <i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+
+        <div class="image">
+            <img src="https://static.wixstatic.com/media/a499f3_173069d00db54e5f84ac61e9c14e6851~mv2.png/v1/fill/w_642,h_753,al_c,q_90,usm_0.33_1.00_0.00,enc_auto/CD%20Care%20iPhone%20in%20Hand%20Mockup_edited.png" alt="">
+        </div>
+
+    </div>
+</section>
+
+
+<!-- 
+
+
+     -->
+
+
+    <!-- <div class="stories">
+        <div class="tech">
+            <h1>Read our stories</h1>
+
+            <div class="tech1">
+                <img src="https://static.wixstatic.com/media/a499f3_0bceb04fc07644f1a28a707877901b2a~mv2.png/v1/fill/w_182,h_26,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/yahoo1.png" alt="">
+                <img src="https://static.wixstatic.com/media/a499f3_bc60b0f64af04e2db2d5d56615db9149~mv2.png/v1/fill/w_171,h_41,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/techpoint1.png" alt="">
+            </div>
+
+            <div class="tech1">
+                <img src="https://static.wixstatic.com/media/a499f3_7d39b20f2f204b77a2ef5124111a8705~mv2.png/v1/fill/w_175,h_33,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/Flutterwave_Logo%20(1).png" alt="">
+                <img src="https://static.wixstatic.com/media/a499f3_7ae02dfcfcd645029f5c0e825838c401~mv2.png/v1/fill/w_177,h_28,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/%20technet1.png" alt="">
+            </div>
+
+            <div class="tech1">
+                <img src="https://static.wixstatic.com/media/a499f3_79dc96c41e5d4379a5d6ff9c5477e314~mv2.png/v1/fill/w_130,h_68,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/disrupt1.png" alt="">
+                <img src="https://static.wixstatic.com/media/a499f3_b2fce2bb1ca14c5c9cac89b3fbaf572f~mv2.png/v1/fill/w_127,h_42,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/koboline1.png" alt="">
+            </div>
+            
+        </div>
+
+        <div class="text">
+            <p>I have always wanted to buy some cool gadgets and CDcare made owning these things very easy for me. I have bought four items already from CDcare. I like the fact that CDcare doesn't require much from me as a user.</p>
+            <h4>Tosin Amuda</h4>
+            <p>@tosinamuda</p>
+            <a href="">Read More</a>
+        </div>
+    </div>  -->
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/b13eb6739b.js" crossorigin="anonymous" ></script>
+  </body>
+</html>
